@@ -70,4 +70,3 @@ def isAnagram(s, t):
             t_dic[char] += 1
     return s_dic == t_dic
 
-print(isAnagram("anagram", "nagaram"))
