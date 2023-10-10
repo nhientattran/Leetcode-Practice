@@ -48,8 +48,8 @@ def evalRPN(tokens):
         if token.isdigit() or( token[0] == '-' and token[1:].isdigit()):
             l.append(int(token))
         else:
-            operand1 = l.pop()
             operand2 = l.pop()
+            operand1 = l.pop()
 
             if token == '+':
                 result = operand1 + operand2
