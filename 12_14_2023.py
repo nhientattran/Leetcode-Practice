@@ -65,4 +65,3 @@ def sortedSquares(nums):
 
     return result
 
-print(bool('abc'))
